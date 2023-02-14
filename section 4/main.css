@@ -1,4 +1,4 @@
-body{
+body {
 
     font-family:sans-serif;
 
@@ -33,10 +33,14 @@ a {
 
 }
 
+a:not(.active) {
+  color:blue;
+}
+
 
 a.active {
 
     font-weight: bold;
     color: grey;
-    
+
 }
