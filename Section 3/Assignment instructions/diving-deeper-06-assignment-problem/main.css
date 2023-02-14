@@ -1,0 +1,25 @@
+.box {
+    /*
+    display: block;
+    */
+    display: inline;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+#box1 {
+    /*
+    height: 100vh;
+    */
+    height : 300px;
+    width: 50vw;
+    visibility: hidden;
+}
+
+#box2:hover {
+    background-color: goldenrod;
+    color:blue;
+}

@@ -1,0 +1,59 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+#product-overview h1 {
+    color : rgb(2, 2, 2);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: brown;
+    color: rgba(87, 68, 109, 0.61);
+}
+
+.blog-post {
+    color : red;
+}
+
+[disabled] {
+    color : red
+}
+
+.section-title {
+    color :rgba(37, 184, 44, 0.61);
+    font-family:inherit
+}
+
+/* Adjacent Sibling */
+
+h2 + p {
+    color : red;
+}
+
+/* General Sibling */
+h2 ~ p {
+    color : pink;
+}
+
+/* Child */
+div > p {
+    color : red;
+}
+
+div p {
+    color : yellow;
+}
+
+
+/*
+
+Selectors           Properties          Values
+
+div                 background-color    red
+.blog-post          width               30%
+#main-title         color               #fa923f
+[disabled]          margin              10px
+*                   display             block
+
+*/
