@@ -185,3 +185,37 @@ p::first-letter {
 .plan--highlighted .plan__title {
     color : white;
 }
+
+.button {
+    background: rgb(35, 53, 35);
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor:pointer;
+}
+
+.button:hover ,
+.button:active {
+    color :  rgb(35, 53, 35);
+    background : white;
+}
+
+.button:focus {
+    outline: none;
+}
+
+#key-features {
+    background-color: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color : white;
+}
