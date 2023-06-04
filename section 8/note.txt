@@ -1,0 +1,44 @@
+What's inside this Module ?
+
+Theory - Which Units can we Use ?
+"%" and the containing block
+"min-width" & "max-width"
+understanding "rem" vs "em"
+working with "vw" and "vh"
+
+How is the Size Calculated ?
+
+Absolute Lengths :
+
+- Mostly ignore user settings
+
+    - px 
+
+
+Viewport Lengths 
+
+- Adjust to current viewport
+
+    - vh 
+    - vw
+    - vmin
+    - vmax
+
+
+Font-Relative Lengths
+
+- Adjust to default font size
+
+    - rem
+    - em
+
+%
+
+How is the Box size for % units calculated ?
+
+
+3 rules to remember :
+
+Element position: fixed;
+
+Viewport     Element  position:fixed;
