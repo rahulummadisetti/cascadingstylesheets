@@ -38,7 +38,22 @@ How is the Box size for % units calculated ?
 
 
 3 rules to remember :
+---------------------
 
 Element position: fixed;
 
 Viewport     Element  position:fixed;
+
+
+Ancestor 
+--------     Element  position:absolute
+content
++padding 
+
+
+Ancestor
+---------     Element position:static / position : relative  (block level element)
+content
+
+
+
