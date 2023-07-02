@@ -56,4 +56,25 @@ Ancestor
 content
 
 
+Units :
+
+pixels (px)
+percentages (%)
+rem & em 
+viewport (vh % vw)
+auto
+
+
+The Containing Block 
+
+The reference point when applying % units to an element.
+Depends on the position property applied to this element.
+Can be the closest ancestor or the viewport.
+
+
+100% Height
+
+The element itself and the ancestors use position static/relative => 100% height is not working 
+Adding 100% height to all ancestors fixes this issues.
+Position fixed/absolute or using viewport units (vw or vh) as alternatives
 
